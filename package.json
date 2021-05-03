@@ -1,0 +1,11 @@
+{
+  "name": "p3_pelardy_sandra",
+  "version": "1.0.0",
+  "description": "Projet Oh My Food",
+  "main": "index.html",
+  "scripts": {
+    "sass": "sass --watch ./sass/main.scss:./css/style.css"
+  },
+  "author": "PELARDY Sandra",
+  "license": "ISC"
+}
