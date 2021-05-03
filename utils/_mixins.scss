@@ -1,0 +1,14 @@
+
+@mixin button {
+    font-size: 1.2rem;
+    border: 0;
+    padding: 0.85rem 1.25rem;
+    font-weight: 500;
+    border-radius: 50px;
+    color: #ffff;
+    background: linear-gradient(140deg, $color-secondary 10%, $color-primary 90%);
+    box-shadow: 0 10px 22px 0 rgba(0, 0, 0, 0.30 );
+    cursor: pointer;
+  }
+
+/*box-shadow mixin*/
