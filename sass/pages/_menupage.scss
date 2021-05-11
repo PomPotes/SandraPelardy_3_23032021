@@ -19,6 +19,7 @@
 
     &__title{
         font-family: Shrikhand,"cursive";
+        font-size: 1.7rem;
     }
 
     &__btn{
@@ -159,12 +160,13 @@
         align-items: center;
         justify-content: center;
         border-radius: 100px;
-        transform: rotate(180deg);
-        transition-duration: 0.5s;
+        transition-duration: 900ms;
+        transform: rotate(360deg);
+        padding-left: 0;
     }
 
     &:hover &__Icons {
-        transform: rotate(0);
+        transform: rotate(0deg);
     }
     
     &__icon{
