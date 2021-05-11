@@ -95,13 +95,13 @@
     display: flex;
     background-color: #fff;
     border-radius: 0.70rem;
-    box-shadow: 0.25rem 0.25rem 1rem rgba(0, 0, 0, 0.1);
     margin: 1rem 0;
     overflow: hidden;
     animation: itemAppear .5s;
     animation-timing-function: cubic-bezier(.5,1.58,.34,.82);
     animation-fill-mode: both;
     transform: scale(0);
+    @include shadow;
     
 
     &__container{
