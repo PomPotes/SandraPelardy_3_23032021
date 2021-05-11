@@ -9,6 +9,14 @@
     background: linear-gradient(140deg, $color-secondary 10%, $color-primary 90%);
     box-shadow: 0 10px 22px 0 rgba(0, 0, 0, 0.30 );
     cursor: pointer;
+
+    &:hover{
+      background-color: white;
+      box-shadow: 0 10px 22px 0 rgba(0, 0, 0, 0.50);
+      filter: brightness(1.2);
+    }
   }
 
-/*box-shadow mixin*/
+@mixin shadow {
+  box-shadow:  0.15rem 0.15rem 0.5rem rgba(0, 0, 0, 0.135);
+}
